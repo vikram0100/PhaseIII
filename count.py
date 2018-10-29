@@ -9,5 +9,5 @@ with open(sys.argv[1], 'r') as myfile:
  for line in islice(myfile,1,10000):
    #if mystring in line.split():
         count=count+line.count("better")
-print mystring,float(count) 
+print float(count) 
 
