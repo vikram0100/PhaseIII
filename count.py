@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 from itertools import islice
-total=0
+count=0
 
 #
 mystring="better"
